@@ -1,0 +1,69 @@
+/* obsidan-file_explorer_icons.css
+************************************************************************
+	CSS snippets adding icons to file exploler by type for Obsidian.md
+	by Searothonc
+
+	2025-07-17    Version 1.0
+
+	Based on the work by Paul Walk:
+	https://www.paulwalk.net/2023/adding-icons-to-obsidian-file-explorer/
+
+	Licensed as CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
+************************************************************************
+*/
+
+/*ALL FILES AND FOLDERS*/
+.nav-folder-title-content::before, .nav-file-title-content::before {margin-right: 3px;}
+
+/* files
+*/
+
+/* Unacceptable file types */
+.nav-file-title .nav-file-title-content::before {content: '◊';}
+
+/*Note(md) files*/
+.nav-file-title[data-path $= '.md'] .nav-file-title-content::before {content: '📄';}
+
+/*Canvas files*/
+.nav-file-title[data-path $= '.canvas'] .nav-file-title-content::before {content: '🎨';}
+
+/*PDF files*/
+.nav-file-title[data-path $= '.pdf'] .nav-file-title-content::before {content: '📰';}
+
+/*Image files*/
+.nav-file-title[data-path $= '.avif'] .nav-file-title-content::before ,
+.nav-file-title[data-path $= '.bmp'] .nav-file-title-content::before ,
+.nav-file-title[data-path $= '.gif'] .nav-file-title-content::before ,
+.nav-file-title[data-path $= '.jpeg'] .nav-file-title-content::before ,
+.nav-file-title[data-path $= '.jpg'] .nav-file-title-content::before ,
+.nav-file-title[data-path $= '.png'] .nav-file-title-content::before ,
+.nav-file-title[data-path $= '.svg'] .nav-file-title-content::before ,
+.nav-file-title[data-path $= '.webp'] .nav-file-title-content::before 
+{content: '🖼';}
+
+/*Audio files*/
+.nav-file-title[data-path $= '.flac'] .nav-file-title-content::before,
+.nav-file-title[data-path $= '.m4a'] .nav-file-title-content::before,
+.nav-file-title[data-path $= '.mp3'] .nav-file-title-content::before,
+.nav-file-title[data-path $= '.ogg'] .nav-file-title-content::before,
+.nav-file-title[data-path $= '.wav'] .nav-file-title-content::before,
+.nav-file-title[data-path $= '.3gp'] .nav-file-title-content::before 
+{content: '🔊';}
+
+/*Video files*/
+.nav-file-title[data-path $= '.mkv'] .nav-file-title-content::before,
+.nav-file-title[data-path $= '.mov'] .nav-file-title-content::before,
+.nav-file-title[data-path $= '.mp4'] .nav-file-title-content::before,
+.nav-file-title[data-path $= '.ogv'] .nav-file-title-content::before,
+.nav-file-title[data-path $= '.webm'] .nav-file-title-content::before 
+{content: '🎞';}
+
+/*Filders default*/
+.nav-folder-title .nav-folder-title-content::before {content: '📁';}
+
+
+/*SPECIFIC FILES AND FOLDERS*/
+/*
+.nav-file-title[data-path = "Dashboard.md"] .nav-file-title-content::before {content: '📋';}  
+.nav-folder-title[data-path = "Inbox"] .nav-folder-title-content::before {content: '⬇️';} 
+*/
