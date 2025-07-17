@@ -1,7 +1,7 @@
 # CSS snippet: File explorer icons
 ## What's this?
 CSS snippet for [Obsidian.md](https://obsidian.md/) to show  icons for each file type in File Explorer.
-![[01preview.png]]
+![[images/01preview.png]]
 
 ## How to install
 
