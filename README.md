@@ -13,7 +13,7 @@ CSS snippet for [Obsidian.md](https://obsidian.md/) to show  icons for each file
 
 ![](/image/03Open_Snippets_Folder.png)
 
-3. Place css CSS snippet to the folder.
+3. Place CSS snippet to the folder.
 
 ![](/image/04place_css_snippet.png)
 
