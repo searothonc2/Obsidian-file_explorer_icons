@@ -7,20 +7,20 @@ CSS snippet for [Obsidian.md](https://obsidian.md/) to show  icons for each file
 
 1. Open \[⚙Options\].
 
-![[02Option.png]]
+![](/image/02Option.png)
 
 2. Show [Appearance] page, then click on "Open snippets folder".
 
-![[03Open_Snippets_Folder.png]]
+![](/image/03Open_Snippets_Folder.png)
 
 3. Place css CSS snippet to the folder.
 
-![[04place_css_snippet.png]]
+![](/image/04place_css_snippet.png)
 
 4. Reload CSS snippets.
 
-![[05Reload_snippets.png]]
+![](/image/05Reload_snippets.png)
 
 5. Turn on the switch that just left of "obsidian-file_explorers_icons".
 
-![[06enable_snippet.png]]
+![](/image/06enable_snippet.png)
